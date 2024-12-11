@@ -2,9 +2,7 @@
 
 
 Implementation of Korean SV2TTS
->   Based on
-        - https://github.com/CorentinJ/Real-Time-Voice-Cloning
-        - https://github.com/esoyeon/KoreanTTS
+>   Based on [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) and [esoyeon/KoreanTTS](https://github.com/esoyeon/KoreanTTS)
     Paper: https://arxiv.org/pdf/1806.04558
 
 
