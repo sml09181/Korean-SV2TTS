@@ -1,10 +1,8 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&text=Korean%20SV2TTS&descAlign=42&descAlignY=40&fontColor=FFFFFF)
 
 
-Implementation of Korean SV2TTS
+Implementation of Korean [SV2TTS](https://arxiv.org/pdf/1806.04558)
 >   Based on [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) and [esoyeon/KoreanTTS](https://github.com/esoyeon/KoreanTTS)
-
-    Paper: https://arxiv.org/pdf/1806.04558
 
 
 *2024년 2학기 이화여자대학교 도전학기제 프로젝트로 진행하였음.*
