@@ -7,7 +7,8 @@ Implementation of Korean [SV2TTS](https://arxiv.org/pdf/1806.04558)
 
 *2024년 2학기 이화여자대학교 도전학기제 프로젝트로 진행하였음.*
 
-https://github.com/user-attachments/assets/d7ca3709-34fb-428a-b7b6-f570dfc99ec8
+![image](https://github.com/user-attachments/assets/947ed1ed-3d5d-4dc6-997c-38bb43714fad)
+
 
 
 - GPU: NVIDIA RTX A6000
