@@ -1,0 +1,13 @@
+Command: python synthesizer_preprocess_audio.py --no_alignments
+Arguments:
+    datasets_root:   /GENERATION/SV2TTS/synthesizer
+    out_dir:         /GENERATION/SV2TTS/synthesizer/preprocessed
+    n_processes:     4
+    skip_existing:   False
+    hparams:         
+    no_alignments:   True
+    datasets_name:   data
+    labels_name:     normalized
+
+[INFO] Using data from: /GENERATION/SV2TTS/synthesizer/data
+[INFO] Using label from: /GENERATION/SV2TTS/synthesizer/normalized

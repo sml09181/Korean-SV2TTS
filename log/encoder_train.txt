@@ -1,0 +1,15 @@
+Arguments:
+    run_id:               encoder
+    clean_data_root:      /GENERATION/SV2TTS/encoder
+    models_dir:           /GENERATION/result/saved_models/su
+    vis_every:            1
+    umap_every:           10
+    save_every:           10
+    backup_every:         500
+    force_restart:        False
+    visdom_server_port:   8097
+    no_visdom:            False
+
+Found existing model "encoder", loading it and resuming training.
+Updating the visualizations every 1 steps.
+Setting up a new session...

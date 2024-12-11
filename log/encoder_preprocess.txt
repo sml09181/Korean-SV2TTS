@@ -1,0 +1,12 @@
+Arguments:
+    datasets_root:   /GENERATION
+    out_dir:         /GENERATION/SV2TTS/encoder
+    datasets:        ['enc003']
+    skip_existing:   False
+
+Preprocessing enc003
+enc003_spkr: Before filtering, there are 2607 speakers.
+enc003_spkr: Filter out speakers under 8 samples.
+enc003_spkr: Preprocessing data for 2535 speakers.
+Done preprocessing enc003_spkr.
+
