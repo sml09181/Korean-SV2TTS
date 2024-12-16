@@ -24,6 +24,9 @@ Highly recommend to create new anaconda environment and run `pip install -r requ
 Before running the code, modify the paths to match your project directory.
 
 ## STEP1: Encoder
+- Input: log mel-spectrogram (from raw speech data w/ arbitrary length)
+- Output: speaker embedding w/ fixed dimension
+- Action: Learn speaker embedding via speaker verification task
 
 ### Dataset
 
@@ -51,6 +54,9 @@ $ python encoder_train.py
 ```
 
 ## STEP2: Synthesizer
+- Input: grapheme or phoneme sequence
+- Output: log-mel spectrogram
+- Action: Text-to-spectrogram for target speaker
 
 ### Dataset
 
@@ -96,27 +102,37 @@ $ python synthesizer_preprocess_embeds.py
 
 ### Train
 
-I proceeded with `no_alignment`.
+It was run with the `no_alignment` setting.
 
 ```
 $ python synthesizer_train.py
 ```
 
 ## STEP3: Vocoder
+- Input: log-mel spectrogram
+- Output: time-domain waveform
+- Action: Convert mel-spectrogram into waveform
 
 ### Preprocessing
+This script generates ground truth-aligned mel-spectrograms (GTA mels) for vocoder training by synthesizing them with a pre-trained Tacotron model. It processes a dataset, removes padding from the generated mels, and saves the results along with metadata.
 ```
 $ python vocoder_preprocess.py
 ```
 
 ### Train
+Trains a WaveRNN vocoder model on mel-spectrograms to generate high-quality audio. 
 ```
 $ python vocoder_train.py
 ```
 
-# Run demo
-First, prepare reference voice. Here, my voice is used as a reference voice.
+## Run demo
+Prepare reference audio files before running the code. Here, my voice is used as a reference voice.
 ```
 $ python demo_cli.py
 ```
 
+## Reference
+- [AIHub 화자 인식용 음성 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=537)
+- [AIHub 다화자 음성합성 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=542)(AIHub Multi-Speaker Speech Synthesis Data)
+- [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
+- [esoyeon/KoreanTTS](https://github.com/esoyeon/KoreanTTS)
