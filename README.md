@@ -131,6 +131,10 @@ Prepare reference audio files before running the code. Here, my voice is used as
 $ python demo_cli.py
 ```
 
+## Related Repository
++ [Ear-VoM](https://github.com/sml09181/Ear-VoM)
++ [Deepvoice-Detection-FL](https://github.com/sml09181/Deepvoice-Detection-FL)
+
 ## Reference
 - [AIHub 화자 인식용 음성 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=537)(AIHub Speaker Recognition Speech Data)
 - [AIHub 다화자 음성합성 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=542)(AIHub Multi-Speaker Speech Synthesis Data)
