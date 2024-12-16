@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&text=Korean%20SV2TTS&descAlign=42&descAlignY=40&fontColor=FFFFFF)
 <br>
-*2024년 2학기 이화여자대학교 도전학기제 프로젝트로 진행하였음.*
+*2024년 2학기 이화여자대학교 도전학기제 개인 프로젝트로 진행하였음.*
 <br>
 <br>
 ## Implementation of Korean [SV2TTS](https://arxiv.org/pdf/1806.04558)
