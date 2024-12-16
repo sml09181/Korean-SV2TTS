@@ -132,7 +132,7 @@ $ python demo_cli.py
 ```
 
 ## Reference
-- [AIHub 화자 인식용 음성 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=537)
+- [AIHub 화자 인식용 음성 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=537)(AIHub Speaker Recognition Speech Data)
 - [AIHub 다화자 음성합성 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=542)(AIHub Multi-Speaker Speech Synthesis Data)
 - [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
 - [esoyeon/KoreanTTS](https://github.com/esoyeon/KoreanTTS)
